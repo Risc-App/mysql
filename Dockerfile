@@ -4,4 +4,4 @@ FROM mysql/mysql-server:8.0.24
 
 COPY config/user.cnf /etc/mysql/my.cnf
 
-COPY backups/database/riscdb20220228.sql /etc/riscdb.sql
+COPY backups/database/riscdb20220306.sql /etc/riscdb.sql
